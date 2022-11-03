@@ -1,0 +1,148 @@
+.container {
+  width: 100%;
+  height: 73.6rem;
+  display: flex;
+  margin: auto;
+  background: var(--background-color-body);
+}
+
+.login_acount {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 39rem;
+  height: 4rem;
+  left: 1.1rem;
+  top: 12.5rem;
+}
+
+.heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 70rem;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  color: var(--primary);
+  margin-bottom: 11.5rem;
+  margin-top: 3.2rem;
+  text-align: center;
+}
+
+.div_Container_Labels {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  margin-left: 5.7rem;
+  margin-bottom: 1.6rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 50rem;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: var(--secundary);
+  position: relative;
+}
+
+.input_size {
+  height: 4rem;
+  width: 30rem;
+  border-radius: 0.5rem;
+  border-width: 0;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+  margin-top: 0.1rem;
+  font-size: 1.2rem;
+}
+
+.span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 50rem;
+  font-size: 1.2rem;
+  margin-top: 9.5rem;
+}
+
+.link {
+  color: blue;
+}
+
+.buttonContainer {
+  margin: 1rem;
+}
+
+.eyeIcon {
+  top: 2rem;
+  position: absolute;
+  font-size: 2.2rem;
+  z-index: 10;
+  cursor: pointer;
+  left: 27rem;
+  padding-top: 0.5rem;
+}
+
+.errorMsg {
+  font-size: 1.5rem;
+  color: rgb(187, 8, 8);
+  width: 100%;
+}
+
+.warnIcon {
+  font-size: 2rem;
+  margin-right: 0.5rem;
+}
+
+/* tablet version */
+@media screen and (min-width: 481px) {
+  .container {
+    justify-content: center;
+  }
+  .heading {
+    margin-top: 22.7rem;
+    margin-bottom: 5.9rem;
+  }
+
+  .input_size_name {
+    height: 4rem;
+    width: 34.6rem;
+  }
+
+  .buttonContainer {
+    justify-self: unset;
+    width: 50%;
+  }
+}
+
+/* desktop version */
+@media screen and (min-width: 769px) {
+  .container {
+    width: 100%;
+  }
+
+  .login_acount {
+    width: 55rem;
+  }
+
+  .heading {
+    margin-top: 13.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .div_Container_Labels {
+    margin-bottom: 2rem;
+  }
+
+  .input_size {
+    width: 44.8rem;
+    margin-top: 1rem;
+  }
+
+  .span {
+    margin-top: 10.4rem;
+    margin-bottom: 17.1rem;
+  }
+
+  .eyeIcon {
+    left: 40rem;
+    padding-top: 1.5rem;
+  }
+}

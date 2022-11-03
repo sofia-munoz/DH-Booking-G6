@@ -1,0 +1,47 @@
+.up{
+    background-color: var(--primary);
+    color: var(--font-color-light);
+    height: 17.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu{
+    margin: 1rem 1rem 0rem 1rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
+}
+
+.closeIcon {
+    margin: 0.5rem 0rem 7rem 1rem;
+    font-size: 2.2rem;
+    font-style: bold;
+    color: var(--font-color-light);
+    padding-bottom: 1.5em;
+    cursor: pointer;
+    border: 0;
+    width: 2rem;
+    background-color: var(--primary);
+    color: var(--font-color-light);
+}
+
+.down{
+    background-color: var(gray);
+    color: var(--secundary);
+    height: 17.5rem;
+    width: 100%;
+    display: flex;
+    margin-right: 3rem;
+    flex-direction: column;
+    text-align: right;
+}
+
+.p{
+    margin: 3.7rem 1rem 0rem 1.5rem;
+    cursor: pointer;
+}

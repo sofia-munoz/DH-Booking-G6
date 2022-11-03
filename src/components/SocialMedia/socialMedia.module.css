@@ -1,0 +1,19 @@
+ul.social {
+  display: flex;
+  flex-direction: row;
+}
+
+.footerSocial {
+  display: none;
+  color: var(--font-color-light);
+  font-size: 2.7rem;
+  margin-right: 3rem;
+}
+
+/* tablet-desktop version */
+
+@media screen and (min-width: 481px) {
+  .footerSocial {
+    display: block;
+  }
+}

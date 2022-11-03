@@ -1,0 +1,42 @@
+.button {
+  border-radius: 0.5rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.primary {
+  color: var(--primary);
+  border: solid 1px var(--primary);
+  padding: 1rem 2rem;
+  box-shadow: 0 0.2rem 0.6rem var(--primary);
+}
+
+.secondary {
+  background-color: var(--primary);
+  color: var(--font-color-light);
+  border: solid 1px var(--primary);
+  width: 100%;
+  line-height: 2rem;
+  padding: 1rem;
+  box-shadow: 0 0.2rem 0.6rem rgb(0 0 0 / 30%);
+}
+
+.buttonRegisterMargin {
+  margin-right: 1.6rem;
+}
+
+.button:hover.primary {
+  background-color: var(--primary);
+  color: var(--font-color-light);
+}
+
+/* .button:hover.secondary {
+  color: var(--primary);
+  background-color: var(--font-color-light);
+} */
+/* desktop version */
+@media screen and (min-width: 769px) {
+  .button {
+    padding: 1rem 5rem;
+  }
+}

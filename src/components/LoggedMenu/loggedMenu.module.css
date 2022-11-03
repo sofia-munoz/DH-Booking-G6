@@ -1,0 +1,69 @@
+.loggedInMenu {
+  display: none;
+}
+
+/* tablet version */
+@media screen and (min-width: 481px) {
+  .loggedInMenu {
+    width: max-content;
+    display: flex;
+    padding-right: 32px;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .welcomeUser {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+  }
+
+  .userIcon {
+    color: var(--font-color-light);
+    background-color: var(--secondary);
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: bold;
+    height: 3.7rem;
+    width: 3.7rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.8rem 0rem;
+  }
+
+  .greeting {
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding-left: 1rem;
+    flex-direction: column;
+    align-self: center;
+    line-height: 1.9rem;
+  }
+
+  .hello {
+    color: var(--font-color-placeholder);
+    margin: 0;
+  }
+
+  .userName {
+    color: var(--primary);
+    margin: 0;
+  }
+
+  .closeIcon {
+    font-size: 2.2rem;
+    font-style: bold;
+    color: var(--secondary);
+    padding-bottom: 1.5em;
+    cursor: pointer;
+  }
+}
+
+/* desktop version */
+@media screen and (min-width: 769px) {
+  .loggedInMenu {
+    padding-right: 4rem;
+  }
+}

@@ -1,0 +1,14 @@
+/* Calendar input & icon */
+.calendar {
+  position: relative;
+  flex: 2 0 40%;
+}
+
+.calendarIcon {
+  color: var(--font-color-placeholder);
+  font-size: 27px;
+  position: absolute;
+  left: 0.6rem;
+  top: 0.6rem;
+  z-index: 1;
+}
